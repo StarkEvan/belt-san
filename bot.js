@@ -7,7 +7,9 @@ const client = new Discord.Client();
 client.on("ready", () => {
   
   console.log(`Bot has started.`); 
-  
+ 
+  client.user.setActivity(` Kamen Rider Chronicle`);
+ 
 });
 
  
